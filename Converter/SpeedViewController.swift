@@ -1,5 +1,5 @@
 //
-//  DistanceViewController.swift
+//  SpeedViewController.swift
 //  Converter
 //
 //  Created by Admin on 8/12/2561 BE.
@@ -8,9 +8,8 @@
 
 import UIKit
 
-class DistanceViewController: UIViewController {
+class SpeedViewController: UIViewController {
 
-    // @IBOutlet weak var headerLab: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

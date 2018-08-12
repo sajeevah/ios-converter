@@ -14,6 +14,7 @@
 		84D55D9421205FA300FE2F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D55D9321205FA300FE2F0F /* Assets.xcassets */; };
 		84D55D9721205FA300FE2F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D55D9521205FA300FE2F0F /* LaunchScreen.storyboard */; };
 		84D55D9F212063CC00FE2F0F /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55D9E212063CC00FE2F0F /* DistanceViewController.swift */; };
+		84D55DA121206C1400FE2F0F /* SpeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55DA021206C1400FE2F0F /* SpeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		84D55D9621205FA300FE2F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D55D9821205FA300FE2F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D55D9E212063CC00FE2F0F /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
+		84D55DA021206C1400FE2F0F /* SpeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				84D55D8A21205FA200FE2F0F /* AppDelegate.swift */,
 				84D55D8C21205FA200FE2F0F /* FirstViewController.swift */,
 				84D55D8E21205FA200FE2F0F /* SecondViewController.swift */,
+				84D55D9E212063CC00FE2F0F /* DistanceViewController.swift */,
+				84D55DA021206C1400FE2F0F /* SpeedViewController.swift */,
 				84D55D9021205FA200FE2F0F /* Main.storyboard */,
 				84D55D9321205FA300FE2F0F /* Assets.xcassets */,
 				84D55D9521205FA300FE2F0F /* LaunchScreen.storyboard */,
 				84D55D9821205FA300FE2F0F /* Info.plist */,
-				84D55D9E212063CC00FE2F0F /* DistanceViewController.swift */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D55D8F21205FA200FE2F0F /* SecondViewController.swift in Sources */,
+				84D55DA121206C1400FE2F0F /* SpeedViewController.swift in Sources */,
 				84D55D9F212063CC00FE2F0F /* DistanceViewController.swift in Sources */,
 				84D55D8B21205FA200FE2F0F /* AppDelegate.swift in Sources */,
 				84D55D8D21205FA200FE2F0F /* FirstViewController.swift in Sources */,
