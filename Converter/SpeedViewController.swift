@@ -10,9 +10,10 @@ import UIKit
 
 class SpeedViewController: UIViewController {
 
+    @IBOutlet weak var speedNavBar: UINavigationItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.speedNavBar.title = "Speed"
         // Do any additional setup after loading the view.
     }
 

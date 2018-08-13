@@ -11,10 +11,10 @@ import UIKit
 class DistanceViewController: UIViewController {
 
     // @IBOutlet weak var headerLab: UILabel!
+    @IBOutlet weak var distanceNavBar: UINavigationItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.distanceNavBar.title = "Distance"
     }
 
     override func didReceiveMemoryWarning() {

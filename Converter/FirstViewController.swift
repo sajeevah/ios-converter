@@ -10,9 +10,11 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var weightNavBar: UINavigationItem!
+    @IBOutlet weak var gramTxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.weightNavBar.title = "Weight"
     }
 
     override func didReceiveMemoryWarning() {
