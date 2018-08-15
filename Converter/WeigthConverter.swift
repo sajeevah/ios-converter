@@ -62,4 +62,11 @@ final class WeigthConverter {
     public func getOunceValue()->Double{
         return self.ounceVar
     }
+    
+    public func resetValues(){
+        self.gramVal = 0
+        self.kilogramVal = 0
+        self.poundVal = 0
+        self.ounceVar = 0
+    }
 }
