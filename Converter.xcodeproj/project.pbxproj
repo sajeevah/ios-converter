@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D207212123F5CF00F30B9C /* WeigthConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D207202123F5CF00F30B9C /* WeigthConverter.swift */; };
 		84D55D8B21205FA200FE2F0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55D8A21205FA200FE2F0F /* AppDelegate.swift */; };
 		84D55D8D21205FA200FE2F0F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55D8C21205FA200FE2F0F /* FirstViewController.swift */; };
 		84D55D8F21205FA200FE2F0F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D55D8E21205FA200FE2F0F /* SecondViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84D207202123F5CF00F30B9C /* WeigthConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeigthConverter.swift; sourceTree = "<group>"; };
 		84D55D8721205FA200FE2F0F /* Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D55D8A21205FA200FE2F0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D55D8C21205FA200FE2F0F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				84D55D9321205FA300FE2F0F /* Assets.xcassets */,
 				84D55D9521205FA300FE2F0F /* LaunchScreen.storyboard */,
 				84D55D9821205FA300FE2F0F /* Info.plist */,
+				84D207202123F5CF00F30B9C /* WeigthConverter.swift */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				84D55D8F21205FA200FE2F0F /* SecondViewController.swift in Sources */,
 				84D55DA121206C1400FE2F0F /* SpeedViewController.swift in Sources */,
+				84D207212123F5CF00F30B9C /* WeigthConverter.swift in Sources */,
 				84D55D9F212063CC00FE2F0F /* DistanceViewController.swift in Sources */,
 				84D55D8B21205FA200FE2F0F /* AppDelegate.swift in Sources */,
 				84D55D8D21205FA200FE2F0F /* FirstViewController.swift in Sources */,

@@ -30,7 +30,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="gramTxtChanged:" destination="9pv-A4-QxB" eventType="editingChanged" id="WO0-eF-fIi"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S68-ZI-gDq">
                                 <rect key="frame" x="159" y="150" width="200" height="30"/>
@@ -81,6 +84,9 @@
                     <navigationItem key="navigationItem" id="RUl-Bp-hJk"/>
                     <connections>
                         <outlet property="gramTxt" destination="bRd-NF-HqW" id="hW2-a2-XMc"/>
+                        <outlet property="kilogramTxt" destination="S68-ZI-gDq" id="7eO-T1-zge"/>
+                        <outlet property="ounceTxt" destination="Ol0-Z3-kPF" id="e2J-92-5he"/>
+                        <outlet property="poundTxt" destination="wzZ-UO-EVU" id="H9S-vS-PYW"/>
                         <outlet property="weightNavBar" destination="RUl-Bp-hJk" id="CwP-qU-0Di"/>
                     </connections>
                 </viewController>
