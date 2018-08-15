@@ -201,6 +201,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="metreTxtChanged:" destination="CDp-FW-iVJ" eventType="editingChanged" id="n12-i4-RCt"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zVy-Vv-oIZ">
                                 <rect key="frame" x="159" y="144" width="200" height="30"/>
@@ -208,6 +211,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="footTxtChanged:" destination="CDp-FW-iVJ" eventType="editingChanged" id="bwa-1d-Dj2"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ht7-w7-hgL">
                                 <rect key="frame" x="159" y="193" width="200" height="30"/>
@@ -215,6 +221,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="yardTxtChanged:" destination="CDp-FW-iVJ" eventType="editingChanged" id="g5L-zh-4nB"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eTm-dL-3x0">
                                 <rect key="frame" x="159" y="245" width="200" height="30"/>
@@ -222,6 +231,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="kilometreTxtChanged:" destination="CDp-FW-iVJ" eventType="editingChanged" id="BpH-0x-uXa"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JiO-bj-HFg">
                                 <rect key="frame" x="159" y="300" width="200" height="30"/>
@@ -229,6 +241,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="mileTxtChanged:" destination="CDp-FW-iVJ" eventType="editingChanged" id="ERQ-Wh-z1f"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Foot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icy-MI-9lt">
                                 <rect key="frame" x="16" y="149" width="35" height="21"/>
@@ -265,6 +280,11 @@
                     <navigationItem key="navigationItem" id="m7C-lp-NDL"/>
                     <connections>
                         <outlet property="distanceNavBar" destination="m7C-lp-NDL" id="tkP-Ic-5Ms"/>
+                        <outlet property="footTxt" destination="zVy-Vv-oIZ" id="b1n-xO-ped"/>
+                        <outlet property="kilometreTxt" destination="eTm-dL-3x0" id="JB4-X8-jYL"/>
+                        <outlet property="metreTxt" destination="O9K-Ob-A61" id="4W1-26-4Ah"/>
+                        <outlet property="mileTxt" destination="JiO-bj-HFg" id="nGa-2n-TGp"/>
+                        <outlet property="yardTxt" destination="ht7-w7-hgL" id="Kej-FK-1BL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Oh-J9-aoi" userLabel="First Responder" sceneMemberID="firstResponder"/>
