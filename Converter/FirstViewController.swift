@@ -32,13 +32,7 @@ class FirstViewController: UIViewController {
             self.setValues("gram", grams)
         }else{
             if(self.gramTxt.text != ""){
-                let alert = UIAlertController(title: "Alert", message: "Incorrect input !", preferredStyle: .alert)
-                let okBtn = UIAlertAction(title: " Ok ", style: .default){ (action) in
-                    self.weight.resetValues()
-                    self.clearTextBoxes()
-                }
-                alert.addAction(okBtn)
-                present(alert, animated: true, completion: nil)
+                self.alertShow()
             }else{
                 self.weight.resetValues()
                 self.clearTextBoxes()
@@ -51,13 +45,7 @@ class FirstViewController: UIViewController {
             self.setValues("kilogram", kilogram)
         }else{
             if(self.kilogramTxt.text != ""){
-                let alert = UIAlertController(title: "Alert", message: "Incorrect input !", preferredStyle: .alert)
-                let okBtn = UIAlertAction(title: " Ok ", style: .default){ (action) in
-                    self.weight.resetValues()
-                    self.clearTextBoxes()
-                }
-                alert.addAction(okBtn)
-                present(alert, animated: true, completion: nil)
+                self.alertShow()
             }else{
                 self.weight.resetValues()
                 self.clearTextBoxes()
@@ -70,13 +58,7 @@ class FirstViewController: UIViewController {
             self.setValues("pound", pound)
         }else{
             if(self.poundTxt.text != ""){
-                let alert = UIAlertController(title: "Alert", message: "Incorrect input !", preferredStyle: .alert)
-                let okBtn = UIAlertAction(title: " Ok ", style: .default){ (action) in
-                    self.weight.resetValues()
-                    self.clearTextBoxes()
-                }
-                alert.addAction(okBtn)
-                present(alert, animated: true, completion: nil)
+                self.alertShow()
             }else{
                 self.weight.resetValues()
                 self.clearTextBoxes()
@@ -89,13 +71,7 @@ class FirstViewController: UIViewController {
             self.setValues("ounce", ounce)
         }else{
             if(self.ounceTxt.text != ""){
-                let alert = UIAlertController(title: "Alert", message: "Incorrect input !", preferredStyle: .alert)
-                let okBtn = UIAlertAction(title: " Ok ", style: .default){ (action) in
-                    self.weight.resetValues()
-                    self.clearTextBoxes()
-                }
-                alert.addAction(okBtn)
-                present(alert, animated: true, completion: nil)
+                self.alertShow()
             }else{
                 self.weight.resetValues()
                 self.clearTextBoxes()
@@ -141,6 +117,15 @@ class FirstViewController: UIViewController {
         self.ounceTxt.text = ""
     }
 
+    func alertShow(){
+        let alert = UIAlertController(title: "Alert", message: "Incorrect input !", preferredStyle: .alert)
+        let okBtn = UIAlertAction(title: " Ok ", style: .default){ (action) in
+            self.weight.resetValues()
+            self.clearTextBoxes()
+        }
+        alert.addAction(okBtn)
+        present(alert, animated: true, completion: nil)
+    }
 
 }
 
