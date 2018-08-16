@@ -124,6 +124,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="mpsTxtChanged:" destination="rjb-al-cEk" eventType="editingChanged" id="3Af-MG-R2B"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e1j-tg-M4l">
                                 <rect key="frame" x="189" y="157" width="170" height="30"/>
@@ -131,6 +134,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="fpmTxtChanged:" destination="rjb-al-cEk" eventType="editingChanged" id="kHy-jZ-rtm"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p23-RA-eXN">
                                 <rect key="frame" x="189" y="213" width="170" height="30"/>
@@ -138,6 +144,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="kphTxtChanged:" destination="rjb-al-cEk" eventType="editingChanged" id="mQN-Tj-Y7R"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XVP-Bv-CLS">
                                 <rect key="frame" x="189" y="268" width="170" height="30"/>
@@ -145,6 +154,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="mphTxtChanged:" destination="rjb-al-cEk" eventType="editingChanged" id="RIE-xp-Ilg"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feed per minute" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRf-U3-6LB">
                                 <rect key="frame" x="16" y="162" width="125" height="21"/>
@@ -173,6 +185,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="QLD-eH-BQf"/>
                     <connections>
+                        <outlet property="fpmTxt" destination="e1j-tg-M4l" id="1Wy-dl-Gyn"/>
+                        <outlet property="kphTxt" destination="p23-RA-eXN" id="hUL-TG-oFs"/>
+                        <outlet property="mphTxt" destination="XVP-Bv-CLS" id="MUo-YH-NyH"/>
+                        <outlet property="mpsTxt" destination="en4-pc-yu4" id="vay-14-ngZ"/>
                         <outlet property="speedNavBar" destination="QLD-eH-BQf" id="BkN-SA-dCq"/>
                     </connections>
                 </viewController>
