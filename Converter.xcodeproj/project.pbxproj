@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848043A32125380000464DAC /* SpeedConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848043A22125380000464DAC /* SpeedConverter.swift */; };
 		84D207212123F5CF00F30B9C /* WeigthConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D207202123F5CF00F30B9C /* WeigthConverter.swift */; };
 		84D2072321242EEC00F30B9C /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2072221242EEC00F30B9C /* TemperatureConverter.swift */; };
 		84D207252124470D00F30B9C /* DistanceConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D207242124470D00F30B9C /* DistanceConverter.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		848043A22125380000464DAC /* SpeedConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedConverter.swift; sourceTree = "<group>"; };
 		84D207202123F5CF00F30B9C /* WeigthConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeigthConverter.swift; sourceTree = "<group>"; };
 		84D2072221242EEC00F30B9C /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		84D207242124470D00F30B9C /* DistanceConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceConverter.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				84D207202123F5CF00F30B9C /* WeigthConverter.swift */,
 				84D2072221242EEC00F30B9C /* TemperatureConverter.swift */,
 				84D207242124470D00F30B9C /* DistanceConverter.swift */,
+				848043A22125380000464DAC /* SpeedConverter.swift */,
 			);
 			path = Converter;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				84D207212123F5CF00F30B9C /* WeigthConverter.swift in Sources */,
 				84D55D9F212063CC00FE2F0F /* DistanceViewController.swift in Sources */,
 				84D55D8B21205FA200FE2F0F /* AppDelegate.swift in Sources */,
+				848043A32125380000464DAC /* SpeedConverter.swift in Sources */,
 				84D207252124470D00F30B9C /* DistanceConverter.swift in Sources */,
 				84D55D8D21205FA200FE2F0F /* FirstViewController.swift in Sources */,
 				84D2072321242EEC00F30B9C /* TemperatureConverter.swift in Sources */,

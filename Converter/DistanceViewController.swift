@@ -132,7 +132,6 @@ class DistanceViewController: UIViewController {
             self.kilometreTxt.text = String(self.distance.getKilometreValue())
             self.mileTxt.text = String(self.distance.getMileValue())
         }
-        
     }
     
     func clearTextBoxes(){
