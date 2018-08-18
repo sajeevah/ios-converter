@@ -18,6 +18,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.clearTextBoxes()
         self.tempNavBar.title = "Temperature"
     }
 

@@ -19,6 +19,7 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.clearTextBoxes()
         self.weightNavBar.title = "Weight"
     }
 

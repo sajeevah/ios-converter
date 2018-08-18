@@ -20,6 +20,7 @@ class DistanceViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.clearTextBoxes()
         self.distanceNavBar.title = "Distance"
     }
 

@@ -19,6 +19,7 @@ class SpeedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.clearTextBoxes()
         self.speedNavBar.title = "Speed"
         // Do any additional setup after loading the view.
     }
